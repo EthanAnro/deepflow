@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Agent OS string in container [#8376](https://github.com/deepflowio/deepflow/pull/8376) by [rvql](https://github.com/rvql)
+* fix: modify auto resource filter [#8374](https://github.com/deepflowio/deepflow/pull/8374) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: modify regular filter [#8373](https://github.com/deepflowio/deepflow/pull/8373) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: agent - eBPF Random time to process symbol table creation [#8283](https://github.com/deepflowio/deepflow/pull/8283) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Handle the scenario where CONFIG_NET_NS is disabled [#8282](https://github.com/deepflowio/deepflow/pull/8282) by [yinjiping](https://github.com/yinjiping)
 * fix: add export thread id [#8278](https://github.com/deepflowio/deepflow/pull/8278) by [lzf575](https://github.com/lzf575)
