@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Mega units in configuration [#8435](https://github.com/deepflowio/deepflow/pull/8435) by [rvql](https://github.com/rvql)
+* fix: L4/L7 log store tap types configuration [#8434](https://github.com/deepflowio/deepflow/pull/8434) by [rvql](https://github.com/rvql)
+* fix: Invalid type in config cause parse failure [#8433](https://github.com/deepflowio/deepflow/pull/8433) by [rvql](https://github.com/rvql)
 * fix: agent - eBPF Random time to process symbol table creation [#8283](https://github.com/deepflowio/deepflow/pull/8283) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Handle the scenario where CONFIG_NET_NS is disabled [#8282](https://github.com/deepflowio/deepflow/pull/8282) by [yinjiping](https://github.com/yinjiping)
 * fix: add export thread id [#8278](https://github.com/deepflowio/deepflow/pull/8278) by [lzf575](https://github.com/lzf575)
