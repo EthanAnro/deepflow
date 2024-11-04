@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent stuck when ntp is turned on [#8445](https://github.com/deepflowio/deepflow/pull/8445) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: agent config api panic when requests float type value [#8442](https://github.com/deepflowio/deepflow/pull/8442) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: agent - eBPF Random time to process symbol table creation [#8283](https://github.com/deepflowio/deepflow/pull/8283) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Handle the scenario where CONFIG_NET_NS is disabled [#8282](https://github.com/deepflowio/deepflow/pull/8282) by [yinjiping](https://github.com/yinjiping)
 * fix: add export thread id [#8278](https://github.com/deepflowio/deepflow/pull/8278) by [lzf575](https://github.com/lzf575)
@@ -215,6 +217,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add new agent.proto func [#8112](https://github.com/deepflowio/deepflow/pull/8112) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Adjust log output for get_process_starttime_and_comm [#8293](https://github.com/deepflowio/deepflow/pull/8293) by [yinjiping](https://github.com/yinjiping)
 * feat: agent - eBPF Keep the agent running after initialization [#8287](https://github.com/deepflowio/deepflow/pull/8287) by [yinjiping](https://github.com/yinjiping)
 * feat: support skywalking integration [#8286](https://github.com/deepflowio/deepflow/pull/8286) by [taloric](https://github.com/taloric)
@@ -469,6 +472,7 @@
 * refactor: trace_tree add encoding respose statistics [#7430](https://github.com/deepflowio/deepflow/pull/7430) by [lzf575](https://github.com/lzf575)
 
 #### Performance
+* perf: use template instead of Interface{} in LockFreePool [#8372](https://github.com/deepflowio/deepflow/pull/8372) by [lzf575](https://github.com/lzf575)
 * perf: remove the '-l' compilation parameter to allow inline [#7935](https://github.com/deepflowio/deepflow/pull/7935) by [lzf575](https://github.com/lzf575)
 * perf: improve the performance of ClickHouse table changes under multiple organizations [#7788](https://github.com/deepflowio/deepflow/pull/7788) by [lzf575](https://github.com/lzf575)
 * perf: speed up the update of ClickHouse table structure [#7748](https://github.com/deepflowio/deepflow/pull/7748) by [lzf575](https://github.com/lzf575)
