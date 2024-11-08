@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: agent - eBPF Random time to process symbol table creation [#8283](https://github.com/deepflowio/deepflow/pull/8283) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Handle the scenario where CONFIG_NET_NS is disabled [#8282](https://github.com/deepflowio/deepflow/pull/8282) by [yinjiping](https://github.com/yinjiping)
 * fix: add export thread id [#8278](https://github.com/deepflowio/deepflow/pull/8278) by [lzf575](https://github.com/lzf575)
@@ -215,6 +217,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
+* feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: agent - eBPF Adjust log output for get_process_starttime_and_comm [#8293](https://github.com/deepflowio/deepflow/pull/8293) by [yinjiping](https://github.com/yinjiping)
 * feat: agent - eBPF Keep the agent running after initialization [#8287](https://github.com/deepflowio/deepflow/pull/8287) by [yinjiping](https://github.com/yinjiping)
 * feat: support skywalking integration [#8286](https://github.com/deepflowio/deepflow/pull/8286) by [taloric](https://github.com/taloric)
