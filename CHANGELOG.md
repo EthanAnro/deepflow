@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: query nullable type from database [#8495](https://github.com/deepflowio/deepflow/pull/8495) by [taloric](https://github.com/taloric)
+* fix: Agent testcases [#8494](https://github.com/deepflowio/deepflow/pull/8494) by [rvql](https://github.com/rvql)
 * fix: agent - eBPF Random time to process symbol table creation [#8283](https://github.com/deepflowio/deepflow/pull/8283) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Handle the scenario where CONFIG_NET_NS is disabled [#8282](https://github.com/deepflowio/deepflow/pull/8282) by [yinjiping](https://github.com/yinjiping)
 * fix: add export thread id [#8278](https://github.com/deepflowio/deepflow/pull/8278) by [lzf575](https://github.com/lzf575)
@@ -215,6 +217,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add metric data_source [#8493](https://github.com/deepflowio/deepflow/pull/8493) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: support agent watch poilcy [#8471](https://github.com/deepflowio/deepflow/pull/8471) by [askyrie](https://github.com/askyrie)
 * feat: agent - eBPF Adjust log output for get_process_starttime_and_comm [#8293](https://github.com/deepflowio/deepflow/pull/8293) by [yinjiping](https://github.com/yinjiping)
 * feat: agent - eBPF Keep the agent running after initialization [#8287](https://github.com/deepflowio/deepflow/pull/8287) by [yinjiping](https://github.com/yinjiping)
 * feat: support skywalking integration [#8286](https://github.com/deepflowio/deepflow/pull/8286) by [taloric](https://github.com/taloric)
