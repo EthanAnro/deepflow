@@ -238,6 +238,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: renames MySqlConfig to Config [#8769](https://github.com/deepflowio/deepflow/pull/8769) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: [controller] add vm_count & pod_count in domain api [#8768](https://github.com/deepflowio/deepflow/pull/8768) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: renames mysql directory to metadb [#8757](https://github.com/deepflowio/deepflow/pull/8757) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: volcengine support vke [#8531](https://github.com/deepflowio/deepflow/pull/8531) by [askyrie](https://github.com/askyrie)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
