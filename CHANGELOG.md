@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: querier trans ip6 error [#8834](https://github.com/deepflowio/deepflow/pull/8834) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
@@ -238,6 +239,11 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: chost support subnet filter [#8833](https://github.com/deepflowio/deepflow/pull/8833) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: http url supports utf8 [#8829](https://github.com/deepflowio/deepflow/pull/8829) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: supports postgres in db session [#8825](https://github.com/deepflowio/deepflow/pull/8825) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: [controller] add vpc info in vtap api [#8824](https://github.com/deepflowio/deepflow/pull/8824) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: removes unused code [#8788](https://github.com/deepflowio/deepflow/pull/8788) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
@@ -515,6 +521,7 @@
 * refactor: trace_tree add encoding respose statistics [#7430](https://github.com/deepflowio/deepflow/pull/7430) by [lzf575](https://github.com/lzf575)
 
 #### Performance
+* perf: change the flow_tag primary key to improve query speed [#8826](https://github.com/deepflowio/deepflow/pull/8826) by [lzf575](https://github.com/lzf575)
 * perf: use template instead of Interface{} in LockFreePool [#8372](https://github.com/deepflowio/deepflow/pull/8372) by [lzf575](https://github.com/lzf575)
 * perf: reduce ckwriter memory [#8417](https://github.com/deepflowio/deepflow/pull/8417) by [lzf575](https://github.com/lzf575)
 * perf: remove the '-l' compilation parameter to allow inline [#7935](https://github.com/deepflowio/deepflow/pull/7935) by [lzf575](https://github.com/lzf575)
