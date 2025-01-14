@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: querier show subnet error when subnet filtering [#8920](https://github.com/deepflowio/deepflow/pull/8920) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
@@ -238,6 +239,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: support decap special vxlan [#8925](https://github.com/deepflowio/deepflow/pull/8925) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: agent - Update protocol_inference.h [#8919](https://github.com/deepflowio/deepflow/pull/8919) by [yinjiping](https://github.com/yinjiping)
+* feat: agent - eBPF Remove user process restrictions in the profile [#8917](https://github.com/deepflowio/deepflow/pull/8917) by [yinjiping](https://github.com/yinjiping)
+* feat: support ebpf for rocketmq protocol [#8901](https://github.com/deepflowio/deepflow/pull/8901) by [kylewanginchina](https://github.com/kylewanginchina)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
@@ -482,6 +487,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: rename cloud server to cloud host [#8926](https://github.com/deepflowio/deepflow/pull/8926) by [lzf575](https://github.com/lzf575)
 * refactor: modify log of configuration changes [#8258](https://github.com/deepflowio/deepflow/pull/8258) by [yuanchaoa](https://github.com/yuanchaoa)
 * refactor: agent workspace dependencies [#8208](https://github.com/deepflowio/deepflow/pull/8208) by [TomatoMr](https://github.com/TomatoMr)
 * refactor: agent is compatibles with configuration and interfaces of both old and new versions [#8084](https://github.com/deepflowio/deepflow/pull/8084) by [TomatoMr](https://github.com/TomatoMr)
