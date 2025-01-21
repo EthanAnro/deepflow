@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Add configs for server [#8997](https://github.com/deepflowio/deepflow/pull/8997) by [rvql](https://github.com/rvql)
+* fix: agent - eBPF Fix high CPU usage in the proc_events thread [#8995](https://github.com/deepflowio/deepflow/pull/8995) by [yinjiping](https://github.com/yinjiping)
+* fix: the configuration is not updated [#8991](https://github.com/deepflowio/deepflow/pull/8991) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
@@ -238,6 +241,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: pcap policy add vtap_group [#8980](https://github.com/deepflowio/deepflow/pull/8980) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
