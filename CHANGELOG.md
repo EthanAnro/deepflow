@@ -238,6 +238,11 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: discard the old configuration - 2 [#9010](https://github.com/deepflowio/deepflow/pull/9010) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: afpacket fanout support ebpf [#9007](https://github.com/deepflowio/deepflow/pull/9007) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: agent - eBPF Support AF_PACKET fanout eBPF (#9004) [#9005](https://github.com/deepflowio/deepflow/pull/9005) by [yinjiping](https://github.com/yinjiping)
+* feat: modifies vtap_type field default value [#9003](https://github.com/deepflowio/deepflow/pull/9003) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: discard the old agent configuration - 1 [#8993](https://github.com/deepflowio/deepflow/pull/8993) by [SongZhen0704](https://github.com/SongZhen0704)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
