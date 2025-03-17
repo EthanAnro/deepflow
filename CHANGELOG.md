@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: genesis sync update storage [#9311](https://github.com/deepflowio/deepflow/pull/9311) by [askyrie](https://github.com/askyrie)
+* fix: show metrics error when table is event [#9285](https://github.com/deepflowio/deepflow/pull/9285) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
