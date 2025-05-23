@@ -238,6 +238,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Add agent info in GenesisSyncRequest [#9699](https://github.com/deepflowio/deepflow/pull/9699) by [rvql](https://github.com/rvql)
+* feat: agent - eBPF Add queue ID to rust callback interface [#9695](https://github.com/deepflowio/deepflow/pull/9695) by [yinjiping](https://github.com/yinjiping)
+* feat: support workload resource sync config [#9689](https://github.com/deepflowio/deepflow/pull/9689) by [askyrie](https://github.com/askyrie)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
