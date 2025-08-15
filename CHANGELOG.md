@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: failed to get k8s cluster id [#10305](https://github.com/deepflowio/deepflow/pull/10305) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: The proxy controller IP is not used [#10300](https://github.com/deepflowio/deepflow/pull/10300) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: resource event can not related with pod group [#10299](https://github.com/deepflowio/deepflow/pull/10299) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: Fix l7 perf stats blacklist and refactor related code [#10298](https://github.com/deepflowio/deepflow/pull/10298) by [rvql](https://github.com/rvql)
 * fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
@@ -238,6 +242,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: refactors agent group api [#10301](https://github.com/deepflowio/deepflow/pull/10301) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
