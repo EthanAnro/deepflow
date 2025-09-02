@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: disk io log level from warn to debug [#10381](https://github.com/deepflowio/deepflow/pull/10381) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: test-server support set grpc-buffer-size [#10376](https://github.com/deepflowio/deepflow/pull/10376) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: update auto_service/instance when gpid from process_id [#10372](https://github.com/deepflowio/deepflow/pull/10372) by [lzf575](https://github.com/lzf575)
+* fix: agent - eBPF Fix CPU affinity interference from numad for agent [#10370](https://github.com/deepflowio/deepflow/pull/10370) by [yinjiping](https://github.com/yinjiping)
 * fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
@@ -238,6 +242,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: perf_event table change to file_event [#10365](https://github.com/deepflowio/deepflow/pull/10365) by [lzf575](https://github.com/lzf575)
+* feat: auto grpc buffer size [#10348](https://github.com/deepflowio/deepflow/pull/10348) by [askyrie](https://github.com/askyrie)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
