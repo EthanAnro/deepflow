@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* Revert "fix: update auto_service/instance when gpid from process_id" [#10399](https://github.com/deepflowio/deepflow/pull/10399) by [lzf575](https://github.com/lzf575)
+* fix: mysql issu index [#10397](https://github.com/deepflowio/deepflow/pull/10397) by [askyrie](https://github.com/askyrie)
+* fix: agent - Add conditional compilation to protect_cpu_affinity() [#10387](https://github.com/deepflowio/deepflow/pull/10387) by [yinjiping](https://github.com/yinjiping)
+* fix: support biz_type at HOOK_POINT_HTTP_REQ/RESP [#10371](https://github.com/deepflowio/deepflow/pull/10371) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
@@ -238,6 +242,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: tagrecorder add updated_at index [#10379](https://github.com/deepflowio/deepflow/pull/10379) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
