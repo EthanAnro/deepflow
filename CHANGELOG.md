@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: modify the default value of inference_max_retries [#10557](https://github.com/deepflowio/deepflow/pull/10557) by [yuanchaoa](https://github.com/yuanchaoa)
+* Fix ai-devel.yaml for fork PR (cont.) [#10556](https://github.com/deepflowio/deepflow/pull/10556) by [kylewanginchina](https://github.com/kylewanginchina)
+* fix: fix bug in agent command forward [#10554](https://github.com/deepflowio/deepflow/pull/10554) by [SongZhen0704](https://github.com/SongZhen0704)
 * fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
@@ -238,6 +241,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: querier modify avg_duration [#10548](https://github.com/deepflowio/deepflow/pull/10548) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: vpc add field owner [#10511](https://github.com/deepflowio/deepflow/pull/10511) by [askyrie](https://github.com/askyrie)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
@@ -532,6 +537,7 @@
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
 
 #### Chore
+* chore: the file event metrics table removes the avg aggregation of duration [#10552](https://github.com/deepflowio/deepflow/pull/10552) by [lzf575](https://github.com/lzf575)
 * chore: Improve rebuild speed by eliminating unnecessary rerun of build.rs [#8207](https://github.com/deepflowio/deepflow/pull/8207) by [rvql](https://github.com/rvql)
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
