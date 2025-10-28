@@ -8,6 +8,15 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: write trace tree empty [#10671](https://github.com/deepflowio/deepflow/pull/10671) by [lzf575](https://github.com/lzf575)
+* fix: invalid agent group config comments [#10670](https://github.com/deepflowio/deepflow/pull/10670) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: span trace write mismatch [#10668](https://github.com/deepflowio/deepflow/pull/10668) by [taloric](https://github.com/taloric)
+* fix: enterprise feature compile in opensource [#10666](https://github.com/deepflowio/deepflow/pull/10666) by [taloric](https://github.com/taloric)
+* fix: support trace_ids grouping [#10665](https://github.com/deepflowio/deepflow/pull/10665) by [taloric](https://github.com/taloric)
+* fix: enterprise compile failed [#10664](https://github.com/deepflowio/deepflow/pull/10664) by [lzf575](https://github.com/lzf575)
+* fix: misremove tracetree trace_id_2 [#10661](https://github.com/deepflowio/deepflow/pull/10661) by [taloric](https://github.com/taloric)
+* fix: Remove unnecessary LogParserConfig initialization [#10659](https://github.com/deepflowio/deepflow/pull/10659) by [rvql](https://github.com/rvql)
+* fix: allow fuzzy search in payload [#10653](https://github.com/deepflowio/deepflow/pull/10653) by [taloric](https://github.com/taloric)
 * fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
@@ -238,6 +247,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: app log add trace id,span id [#10662](https://github.com/deepflowio/deepflow/pull/10662) by [lzf575](https://github.com/lzf575)
+* feat: querier supports multi trace_id [#10597](https://github.com/deepflowio/deepflow/pull/10597) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
