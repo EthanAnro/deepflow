@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: support service matching in hostnetwork mode. [#10743](https://github.com/deepflowio/deepflow/pull/10743) by [lzf575](https://github.com/lzf575)
 * fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
@@ -238,6 +239,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: refactor metadb sql file definition [#10745](https://github.com/deepflowio/deepflow/pull/10745) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: modify service data send to ingester [#10742](https://github.com/deepflowio/deepflow/pull/10742) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: podgroup add network mode [#10740](https://github.com/deepflowio/deepflow/pull/10740) by [askyrie](https://github.com/askyrie)
+* feat: for loopback local addresses, match using peer pod [#10714](https://github.com/deepflowio/deepflow/pull/10714) by [lzf575](https://github.com/lzf575)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
