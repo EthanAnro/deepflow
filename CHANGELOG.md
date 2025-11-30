@@ -8,6 +8,11 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: slimit supports custom biz service filter [#10922](https://github.com/deepflowio/deepflow/pull/10922) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: only 0/1 filter in custom_service_filter [#10920](https://github.com/deepflowio/deepflow/pull/10920) by [SongZhen0704](https://github.com/SongZhen0704)
+* fix: support auto_service_id tranform by custom_biz_service_filter_map [#10917](https://github.com/deepflowio/deepflow/pull/10917) by [SongZhen0704](https://github.com/SongZhen0704)
+* fix: support backtick in auto_service_type_1 [#10916](https://github.com/deepflowio/deepflow/pull/10916) by [SongZhen0704](https://github.com/SongZhen0704)
+* fix: support backtick in auto_service_type [#10915](https://github.com/deepflowio/deepflow/pull/10915) by [SongZhen0704](https://github.com/SongZhen0704)
 * fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
@@ -238,6 +243,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: support disabled push [#10912](https://github.com/deepflowio/deepflow/pull/10912) by [askyrie](https://github.com/askyrie)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
