@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: missing lifetime specifier [#11160](https://github.com/deepflowio/deepflow/pull/11160) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: add endpoint interface [#11153](https://github.com/deepflowio/deepflow/pull/11153) by [lzf575](https://github.com/lzf575)
+* fix: fail to heal soft deleted data in tagrecorder [#11149](https://github.com/deepflowio/deepflow/pull/11149) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
@@ -238,6 +241,11 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add getters of cloud structs [#11152](https://github.com/deepflowio/deepflow/pull/11152) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: L7 inference supports using responses [#11151](https://github.com/deepflowio/deepflow/pull/11151) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: remove unused code in recorder [#11150](https://github.com/deepflowio/deepflow/pull/11150) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: querier supports biz service group [#11140](https://github.com/deepflowio/deepflow/pull/11140) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: optimize genesis k8s [#11077](https://github.com/deepflowio/deepflow/pull/11077) by [askyrie](https://github.com/askyrie)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
