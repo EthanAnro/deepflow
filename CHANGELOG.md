@@ -238,6 +238,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: eBPF Rename the file type checking interface [#11176](https://github.com/deepflowio/deepflow/pull/11176) by [yinjiping](https://github.com/yinjiping)
+* feat: move response_code to attribute on rewrite [#11172](https://github.com/deepflowio/deepflow/pull/11172) by [rvql](https://github.com/rvql)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
