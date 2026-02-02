@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: push duplicated service info to ingester [#11344](https://github.com/deepflowio/deepflow/pull/11344) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: iso8583 should correct the direction according to msg_type [#11341](https://github.com/deepflowio/deepflow/pull/11341) by [lzf575](https://github.com/lzf575)
 * fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
@@ -238,6 +240,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: update message version [#11343](https://github.com/deepflowio/deepflow/pull/11343) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: add resp_status in trace_tree [#11340](https://github.com/deepflowio/deepflow/pull/11340) by [taloric](https://github.com/taloric)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
