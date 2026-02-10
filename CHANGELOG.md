@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: delete gather cluster id [#11385](https://github.com/deepflowio/deepflow/pull/11385) by [askyrie](https://github.com/askyrie)
+* fix: update ch_vtap_port error [#11383](https://github.com/deepflowio/deepflow/pull/11383) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: fail to clear deleted sub_domain resource [#11378](https://github.com/deepflowio/deepflow/pull/11378) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
