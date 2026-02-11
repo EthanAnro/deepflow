@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: unable to obtain the ctrl ip mac [#11382](https://github.com/deepflowio/deepflow/pull/11382) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: mongo log was missing the request content [#8477](https://github.com/deepflowio/deepflow/pull/8477) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Default values in agent config [#8476](https://github.com/deepflowio/deepflow/pull/8476) by [rvql](https://github.com/rvql)
 * fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
@@ -238,6 +239,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: refactor recorder cache tool [#11389](https://github.com/deepflowio/deepflow/pull/11389) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: add alarm policy dynamic label [#11371](https://github.com/deepflowio/deepflow/pull/11371) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: refactor recorder updater [#11363](https://github.com/deepflowio/deepflow/pull/11363) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: add TPBASE and TSD extraction for multi-thread Python unwind [#11335](https://github.com/deepflowio/deepflow/pull/11335) by [kylewanginchina](https://github.com/kylewanginchina)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
@@ -482,6 +487,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: Remove redundant timestamp unit conversion [#11390](https://github.com/deepflowio/deepflow/pull/11390) by [rvql](https://github.com/rvql)
 * refactor: modify log of configuration changes [#8258](https://github.com/deepflowio/deepflow/pull/8258) by [yuanchaoa](https://github.com/yuanchaoa)
 * refactor: agent workspace dependencies [#8208](https://github.com/deepflowio/deepflow/pull/8208) by [TomatoMr](https://github.com/TomatoMr)
 * refactor: agent is compatibles with configuration and interfaces of both old and new versions [#8084](https://github.com/deepflowio/deepflow/pull/8084) by [TomatoMr](https://github.com/TomatoMr)
@@ -545,3 +551,7 @@
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
 * refector: add agent.proto [#7695](https://github.com/deepflowio/deepflow/pull/7695) by [yuanchaoa](https://github.com/yuanchaoa)
 * Update changelog [#7660](https://github.com/deepflowio/deepflow/pull/7660) by [lzf575](https://github.com/lzf575)
+
+
+#### Testing
+* Update ai-devel.yaml for latest claude-code-action use [#11388](https://github.com/deepflowio/deepflow/pull/11388) by [kylewanginchina](https://github.com/kylewanginchina)
