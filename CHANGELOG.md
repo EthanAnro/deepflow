@@ -238,6 +238,11 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: querier support alert state [#11508](https://github.com/deepflowio/deepflow/pull/11508) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: modify metric value displayname [#11507](https://github.com/deepflowio/deepflow/pull/11507) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: update default port name regex [#11506](https://github.com/deepflowio/deepflow/pull/11506) by [askyrie](https://github.com/askyrie)
+* feat: custom policy and field disabled [#11504](https://github.com/deepflowio/deepflow/pull/11504) by [askyrie](https://github.com/askyrie)
+* feat: add enabled flag to custom app policies and fields [#11503](https://github.com/deepflowio/deepflow/pull/11503) by [rvql](https://github.com/rvql)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
