@@ -238,6 +238,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: optimize remote execute log [#11583](https://github.com/deepflowio/deepflow/pull/11583) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: prometheus data uses pod name to match pod ns and pod group. [#11580](https://github.com/deepflowio/deepflow/pull/11580) by [lzf575](https://github.com/lzf575)
 * feat: the role field adds the values local and rest [#8474](https://github.com/deepflowio/deepflow/pull/8474) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF Support python unwind [#8407](https://github.com/deepflowio/deepflow/pull/8407) by [rvql](https://github.com/rvql)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
